@@ -12,7 +12,8 @@ public class DemoApplication {
 
     @RequestMapping("/")
     String home() {
-        return "¡Desplegando en la nube una vez más!";
+        System.out.println("Escribiendo en el log del microservicio.");
+        return "¡Desplegando un microservicio en la nube una vez más!";
     }
 
     public static void main(String[] args) {
