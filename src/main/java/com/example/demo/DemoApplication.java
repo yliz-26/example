@@ -12,7 +12,7 @@ public class DemoApplication {
 
     @RequestMapping("/")
     String home() {
-        return "Hello World, Yareli!";
+        return "¡Desplegando en la nube una vez más!";
     }
 
     public static void main(String[] args) {
